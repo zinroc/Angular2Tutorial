@@ -1,5 +1,5 @@
 {
-  "name": "literature-lantern",
+  "name": "Angular2Tutorial",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
@@ -55,6 +55,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zinroc/literature-lantern.git"
+    "url": "git+https://github.com/zinroc/Angular2Tutorial.git"
   }
 }
