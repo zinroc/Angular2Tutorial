@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var model_1 = require('./model'); //for testing purposes, you don't need this.
+var model_1 = require('./model');
 var WelcomeComponent = (function () {
     function WelcomeComponent(userService) {
         this.userService = userService;
@@ -21,15 +21,13 @@ var WelcomeComponent = (function () {
             'Please log in.';
     };
     WelcomeComponent = __decorate([
-        //for testing purposes, you don't need this.
         core_1.Component({
             selector: 'app-welcome',
             template: '<h3 class="welcome" ><i>{{welcome}}</i></h3>'
         }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof model_1.UserService !== 'undefined' && model_1.UserService) === 'function' && _a) || Object])
+        __metadata('design:paramtypes', [model_1.UserService])
     ], WelcomeComponent);
     return WelcomeComponent;
-    var _a;
 }());
 exports.WelcomeComponent = WelcomeComponent;
 //# sourceMappingURL=welcome.component.js.map
