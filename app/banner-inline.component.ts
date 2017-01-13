@@ -1,10 +1,9 @@
-import from { Component } from '@angular/core';
+import { Component } from '@angular/core';
 
-@Component ({
-	selector: 'app-banner',
-	template: '<h1>{{title}}</h1>'
+@Component({
+  selector: 'app-banner-inline',
+  template: '<h1>{{title}}</h1>'
 })
-
 export class BannerComponent {
-	title = 'Test Tour of Heroes';
+  title = 'Test Tour of Heroes';
 }

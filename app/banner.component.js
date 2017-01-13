@@ -15,12 +15,14 @@ var BannerComponent = (function () {
     }
     BannerComponent = __decorate([
         core_1.Component({
-            selector: 'app-banner-inline',
-            template: '<h1>{{title}}</h1>'
+            moduleId: module.id,
+            selector: 'app-banner',
+            templateUrl: 'banner.component.html',
+            styleUrls: ['banner.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], BannerComponent);
     return BannerComponent;
 }());
 exports.BannerComponent = BannerComponent;
-//# sourceMappingURL=banner-inline.component.js.map
+//# sourceMappingURL=banner.component.js.map
